@@ -1,0 +1,1110 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #ffffff;
+  color: #0B132A;
+}
+
+button {
+  font-family: inherit;
+}
+
+.burgerIcon {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Mobile */
+@media only screen and (max-width: 640px) {
+
+    /* Navbar */
+  .logoMerk {
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .navbarMerk {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+
+  .navbarVpnWord {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .burgerIcon {
+    display: flex;
+    padding-left: 50%;
+    align-items: center;
+  }
+
+  .mainRoute {
+    display: none;
+  }
+
+  .sign {
+    display: none;
+  }
+
+  /* Main Section */
+  .mainImage {
+    width: 267px;
+    margin: 40px 20px 20px 50px;
+  }
+
+  .mainSectionLeft {
+    display: none;
+  }
+
+  .mainSectionMobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mainSectionTitle {
+    font-family: "Rubik", "sans-serif";
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0B132A;
+  }
+
+  .mainSectionText {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    margin-bottom: 45px;
+    text-align: center;
+    color: #4F5665;
+    font-weight: 400;
+  }
+
+  .buttonGetStarted {
+    text-align: center;
+    height: 60px;
+    width: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #f53838;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    align-items: center;
+  }
+
+  .buttonDownloadGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+    margin-top: 30px;
+    align-items: center;
+  }
+
+  .buttonDownload {
+    height: 45px;
+    width: 250px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #0B132A;
+  }
+
+  /* Second Section */
+  .secondSectionRightTitle {
+    display: none;
+  }
+
+  .secondSectionRightText{
+    display: none;
+  }
+
+  .secondSectionRightTextMobile{
+    color: #4F5665;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .secondSectionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .secondSectionRightTitleMobile {
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .secondSectionRightTextMobile{
+    text-align: center;
+  }
+
+  .secondSectionRightLearn{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 70px;
+  }
+
+  .secondSectionRightLearnText {
+    color: #080047;
+    text-decoration: none;
+  }
+
+  /* Third Section */
+  .thirdSectionContainer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .buttonStartSavingMobile {
+    height: 60px;
+    width: 194px;
+    border-radius: 10px;
+    margin-bottom: 45px;
+    cursor: pointer;
+    border: none;
+    background-color: #f53838;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .feature {
+    background-color: #f7f7f7;
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 30px;
+  }
+
+  .goFeature {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 30px;
+  }
+
+  .goFeatureText {
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .thirdMain {
+    text-align: center;
+    padding: 10%;
+  }
+
+  .thirdMainTitle {
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 42px;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+
+  .thirdMainText {
+    color: #080047;
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+
+  .featureTitle {
+    color: #080047;
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    padding-top: 15px;
+  }
+
+  .featureTextOdd {
+    color: #080047;
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 80px;
+  }
+
+  .featureTextEven {
+    color: #080047;
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 60px;
+  }
+
+  /* Fourth Section */
+  .fourthSectionText{
+    display: none;
+  }
+
+  .fourthSectionLeft{
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .handphoneImage {
+    height: 425.86px;
+    width: 276px;
+  }
+
+  .upto25 {
+    margin-top: 40px;
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 20px;
+    font-weight: 700;
+    color: #f53838;
+    border-radius: 30px;
+    background-color: #fee9e9;
+    height: 45px;
+    width: 257px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fourthSectionRight{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+
+  .fourthSectionTitle {
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #080047;
+  }
+
+  .fourthSectionTextMobile {
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .fourthLearnMore {
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 18px;
+    font-weight: 700;
+    color: #f53838;
+  }
+
+  /* Fifth Section */
+  .fifthSectionContainer {
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .fifthSectionLeft {
+    background-color: #2469b2;
+    padding-left: 15%;
+  }
+
+  .fifthSectionLeftTitle {
+    display: none;
+  }
+
+  .fifthSectionLeftTitleMobile {
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #2469b2;
+    color: #ffffff;
+    padding-top: 10%;
+  }
+
+  .fifthSectionLeftText{
+    display: none;
+  }
+
+  .fifthSectionLeftTextMobile {
+    background-color: #2469b2;
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 7%;
+  }
+
+  .fifthSectionLeftMore {
+    background-color: #2469b2;
+    display: flex;
+    align-items: center;
+    padding-top: 12%;
+    padding-bottom: 12%;
+  }
+
+  .fifthSectionLeftMeet {
+    background-color: #2469b2;
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  .fifthSectionLeftBack {
+    border-radius: 90%;
+    margin-right: 10px;
+  }
+
+  .fifthSectionRightImage {
+    width: 100%;
+  }
+
+  /* Sixth Section */
+  .sixthSectionContainer{
+    padding: 20px 20px 20px 20px;
+  }
+
+  .memberImage {
+    width: 335px;
+  }
+
+  .sixthSectionRightTitle {
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+
+  .sixthSectionRightText {
+    display: none;
+  }
+
+  .sixthSectionRightTextMobile {
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+  }
+
+  /* Seventh Section */
+  .seventhSectionContainer {
+    display: none;
+  }
+
+  .buttonStartSaving {
+    display: none;
+  }
+
+  .seventhSectionContainerMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upperImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.lowerImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+  /* Eigth Section */
+  .footerDescription:first-child{
+    display: none;
+  }
+
+  .eighthSectionContainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    background-color: #F8F8F8;
+  }
+
+  .footerTitle {
+    color: #0B132A;
+    font-family: "Rubik", "sans-serif";
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 23px;
+    padding-top: 30px;
+  }
+
+  .footerDetail {
+    color: #4F5665;
+    font-family: "Rubik", "sans-serif";
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+  }
+
+  .footerDescriptionMobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerPart {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .footerMerk {
+    font-family: "Rubik", "sans-serif";
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #f8f8f8;
+    padding-left: 10px;
+  }
+
+  .footerText {
+    font-family: "Rubik", "sans-serif";
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footerLaslesVpn {
+    font-weight: 500;
+  }
+
+  .sosmedLogo {
+    display: flex;
+    padding: 0;
+  }
+
+  .copyright {
+    font-family: "Rubik", "sans-serif";
+    font-size: 16px;
+    font-weight: 400;
+    color: #afb5c0;
+    background-color: #f8f8f8;
+    padding-bottom: 100px;
+  }
+
+  .footerVpnWord {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+}
+
+
+
+/* Dekstop */
+@media only screen and (min-width: 1280px) {
+  /* Navbar */
+  .navbar {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .logoMerk {
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbarMerk {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+
+  .navbarVpnWord {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .mainRoute {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbarRoute {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px 14px;
+    color: #4f5665;
+    font-weight: 400;
+  }
+
+  .navbarRoute:first-child {
+    color: #f53855;
+    font-weight: 700;
+  }
+
+  .sign {
+    display: flex;
+  }
+
+  .sign button {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    height: 35px;
+    width: 120px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: transparent;
+    border-radius: 50px;
+  }
+
+  .sign button:last-child {
+    border: 1px solid #f53855;
+    color: #f53855;
+  }
+
+  .sign button:hover {
+    background-color: #f53855;
+    color: #ffffff;
+  }
+
+  .burgerIcon {
+    display: none;
+  }
+
+  /* Main Section */
+  .mainSectionMobile {
+    display: none;
+  }
+
+  .mainSection {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .mainSectionLeft {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainSectionTitle {
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #0B132A;
+  }
+
+  .mainSectionText {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    margin-bottom: 45px;
+  }
+
+  .buttonCreateAccount {
+    height: 60px;
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 45px;
+    cursor: pointer;
+    border: none;
+    background-color: #f53838;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .buttonDownloadGroup {
+    display: flex;
+  }
+
+  .buttonDownload {
+    height: 45px;
+    width: 193px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #0B132A;
+    gap: 10px;
+  }
+
+  .buttonDownload:first-child {
+    margin-right: 120px;
+  }
+
+  .buttonDownload:last-child {
+    margin-left: 20px;
+  }
+
+  .buttonCreateAccount:hover {
+    background-color: #b13434;
+  }
+
+  .buttonDownloadText {
+    margin-left: 10px;
+  }
+
+  .mainImage {
+    height: 650px;
+    width: 588px;
+  }
+
+  /* Second Section */
+  .secondSectionRightTitleMobile {
+    display: none;
+  }
+
+  .secondSectionRightTextMobile{
+    display: none;
+  }
+
+  .secondSectionContainer {
+    margin-top: 130px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .secondSectionRight {
+    font-family: "Dm Sans", "sans-serif";
+    margin-left: 30px;
+  }
+
+  .secondSectionRightTitle {
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 25px;
+  }
+
+  .secondSectionRightText {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ababac;
+  }
+
+  .secondSectionRightLearn {
+    padding-top: 27px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .secondSectionRightLearnText {
+    color: #080047;
+    text-decoration: none;
+  }
+
+  /* Third Section */
+
+  .buttonStartSavingMobile {
+    display: none;
+  }
+
+  .thirdSectionContainer {
+    display: grid;
+    grid-template-columns: 34% 33% 33%;
+    grid-template-rows: 34% 33% 33%;
+    gap: 50px 0;
+  }
+
+  .feature {
+    background-color: #f7f7f7;
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-bottom: 90px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 20%;
+  }
+
+  .goFeature {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 30px;
+  }
+
+  .goFeatureText {
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .thirdMain {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-right: 20px;
+    padding-left: 20%;
+  }
+
+  .thirdMainTitle {
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+
+  .thirdMainText {
+    color: #080047;
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+
+  .featureTitle {
+    color: #080047;
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    padding-top: 15px;
+  }
+
+  .featureTextOdd {
+    color: #080047;
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 80px;
+  }
+
+  .featureTextEven {
+    color: #080047;
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 60px;
+  }
+
+  /* Fourth Section */
+  .fourthSectionTextMobile{
+    display: none;
+  }
+
+  .fourthSectionContainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .fourthSectionLeft {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .fourthSectionRight {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .upto25 {
+    margin-top: 60px;
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 24px;
+    font-weight: 700;
+    color: #f53838;
+    border-radius: 30px;
+    background-color: #fee9e9;
+    height: 45px;
+    width: 301px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fourthSectionTitle {
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 80px;
+  }
+
+  .fourthSectionText {
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 80px;
+  }
+
+  .fourthLearnMore {
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 18px;
+    font-weight: 700;
+    color: #f53838;
+  }
+
+  /* Fifth Section */
+  .fifthSectionLeftTitleMobile {
+    display: none;
+  }
+  .fifthSectionContainer {
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fifthSectionLeft {
+    background-color: #2469b2;
+    padding-left: 5%;
+    width: 50%;
+  }
+
+  .fifthSectionLeftTitle {
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 48px;
+    font-weight: 700;
+    background-color: #2469b2;
+    color: #ffffff;
+    padding-top: 10%;
+  }
+
+  .fifthSectionLeftTextMobile{
+    display: none;
+  }
+
+  .fifthSectionLeftText {
+    background-color: #2469b2;
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 7%;
+  }
+
+  .fifthSectionLeftMore {
+    background-color: #2469b2;
+    display: flex;
+    align-items: center;
+    padding-top: 12%;
+  }
+
+  .fifthSectionLeftMeet {
+    background-color: #2469b2;
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  .fifthSectionLeftBack {
+    border-radius: 90%;
+    margin-right: 10px;
+  }
+
+  .fifthSectionRight {
+    width: 50%;
+  }
+  .fifthSectionRightImage {
+    width: 100%;
+  }
+
+  /* Sixth Section */
+  .buttonGetStarted {
+    display: none;
+  }
+
+  .sixthSectionRightTextMobile {
+    display: none;
+  }
+
+  .sixthSectionContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+  }
+
+  .sixthSectionRightTitle {
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 10%;
+  }
+
+  .sixthSectionRightText {
+    font-family: "Dm Sans", "sans-serif";
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 10%;
+  }
+
+  .buttonStartSaving {
+    height: 60px;
+    width: 194px;
+    border-radius: 10px;
+    margin-bottom: 45px;
+    cursor: pointer;
+    border: none;
+    background-color: #f53838;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .buttonCreateAccount:hover {
+    background-color: #b13434;
+  }
+
+  /* Seventh Section */
+  .seventhSectionContainerMobile{
+    display: none;
+  }
+
+  .seventhSectionContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  /* Eighth Section*/
+  .eighthSectionContainer {
+    display: grid;
+    grid-template-columns: 15% 20% 20% 20% auto;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    gap: 0 20px;
+    background-color: #f8f8f8;
+  }
+
+  .footerDescription:first-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #f8f8f8;
+    padding-left: 90px;
+  }
+
+  .footerDescription {
+    background-color: #f8f8f8;
+  }
+
+  .footerPart {
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+  }
+
+  .footerLogo {
+    background-color: #f8f8f8;
+  }
+
+  .footerMerk {
+    font-family: "Rubik", "sans-serif";
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #f8f8f8;
+    padding-left: 10px;
+  }
+
+  .footerVpnWord {
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #f8f8f8;
+  }
+
+  .footerText {
+    font-family: "Rubik", "sans-serif";
+    font-size: 16px;
+    font-weight: 400;
+    color: #4f5665;
+    background-color: #f8f8f8;
+    padding-top: 15px;
+  }
+
+  .footerLaslesVpn {
+    font-weight: 500;
+    background-color: #f8f8f8;
+  }
+
+  .sosmedLogo {
+    display: flex;
+    background-color: #f8f8f8;
+    padding-top: 15px;
+  }
+
+  .copyright {
+    font-family: "Rubik", "sans-serif";
+    font-size: 16px;
+    font-weight: 400;
+    color: #afb5c0;
+    background-color: #f8f8f8;
+    padding-top: 15px;
+  }
+
+  .footerTitle {
+    font-family: "Rubik", "sans-serif";
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 8%;
+    background-color: #f8f8f8;
+  }
+
+  .footerDetail {
+    font-family: "Rubik", "sans-serif";
+    font-size: 16px;
+    font-weight: 400;
+    color: #4f5665;
+    padding-bottom: 6%;
+    background-color: #f8f8f8;
+  }
+
+  .footerDetail:last-child {
+    padding-bottom: 0;
+  }
+  
+  .footerDescriptionMobile {
+    display: none;
+  }
+}
